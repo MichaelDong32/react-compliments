@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Compliments from './compliments'
 
 class App extends Component {
 
@@ -8,7 +9,11 @@ class App extends Component {
 
   render () {
     return (
-    	<h1>Welcome to {this.props.name}</h1>
+    	<div>
+			<h1>Hello World</h1>
+			<h2>This is a React compliment generator</h2>
+			<Compliments compliment='You are awesome'/>
+		</div>
 	)
   }
 
